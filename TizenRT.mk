@@ -1,0 +1,49 @@
+CFLAGS += -I./apps
+CFLAGS += -I./main
+CFLAGS += -I./interface
+
+CFLAGS += -I$(DACM_PATH)/main
+CFLAGS += -I$(DACM_PATH)/service
+CFLAGS += -I$(DACM_PATH)/interface
+CFLAGS += -I$(DACM_PATH)/libs
+
+CFLAGS += -I./apps/otn/command/inc
+
+CFLAGS += -I$(DACM_PATH)/service/UartWatchDog/inc
+CFLAGS += -I$(DACM_PATH)/service/wifi/inc
+CFLAGS += -I$(DACM_PATH)/service/ocf/ocf_manager/inc
+CFLAGS += -I$(DACM_PATH)/service/OTN/include
+CFLAGS += -I$(DACM_PATH)/service/da_module
+CFLAGS += -I$(DACM_PATH)/service/da_module/include
+CFLAGS += -I$(DACM_PATH)/service/micom/manager/inc
+CFLAGS += -I$(DACM_PATH)/service/OTN/common/inc/config/flash/rtl8721csm
+CFLAGS += -I$(DACM_PATH)/service/OTN/common/inc/config/flash/rtl8721csm
+CFLAGS += -I$(DACM_PATH)/service/OTN/common/inc/config/server/HQ
+#CFLAGS += -I$(DACM_PATH)/service/RM/inc/rtl8721csm
+CFLAGS += -I$(DACM_PATH)/service/SSM/inc/rtl8721csm
+CFLAGS += -I$(DACM_PATH)/DA-Service
+CFLAGS += -I$(DACM_PATH)/DA-Service/SSM/include
+
+CFLAGS += -I$(TIZENRT_PATH)/framework/include
+CFLAGS += -I$(TIZENRT_PATH)/framework/include/system
+CFLAGS += -I$(TIZENRT_PATH)/external/include
+CFLAGS += -I$(TIZENRT_PATH)/external/dawit/include
+CFLAGS += -I$(TIZENRT_PATH)/external/include/log_buffer/rtl8721csm
+CFLAGS += -I$(TIZENRT_PATH)/external/iotivity/iotivity_1.2-rel/resource/c_common
+CFLAGS += -I$(TIZENRT_PATH)/external/iotivity/iotivity_1.2-rel/resource/c_common/inc
+CFLAGS += -I$(TIZENRT_PATH)/external/iotivity/iotivity_1.2-rel/resource/c_common/oic_malloc/include
+CFLAGS += -I$(TIZENRT_PATH)/external/iotivity/iotivity_1.2-rel/resource/c_common/ocrandom/include
+CFLAGS += -I$(TIZENRT_PATH)/external/iotivity/iotivity_1.2-rel/resource/csdk/stack/include
+CFLAGS += -I$(TIZENRT_PATH)/external/iotivity/iotivity_1.2-rel/resource/csdk/stack/include/internal
+CFLAGS += -I$(TIZENRT_PATH)/external/iotivity/iotivity_1.2-rel/resource/csdk/security/include
+CFLAGS += -I$(TIZENRT_PATH)/external/iotivity/iotivity_1.2-rel/resource/csdk/security/include/internal
+CFLAGS += -I$(TIZENRT_PATH)/external/iotivity/iotivity_1.2-rel/resource/csdk/logger/include
+CFLAGS += -I$(TIZENRT_PATH)/external/iotivity/iotivity_1.2-rel/resource/csdk/connectivity/inc
+CFLAGS += -I$(TIZENRT_PATH)/external/iotivity/iotivity_1.2-rel/resource/csdk/connectivity/common/inc
+CFLAGS += -I$(TIZENRT_PATH)/external/iotivity/iotivity_1.2-rel/resource/csdk/connectivity/api
+CFLAGS += -I$(TIZENRT_PATH)/external/iotivity/iotivity_1.2-rel/resource/csdk/connectivity/lib/libcoap-4.1.1/include
+CFLAGS += -I$(TIZENRT_PATH)/external/iotivity/iotivity_1.2-rel/extlibs/tinycbor/tinycbor/src
+CFLAGS += -I$(TIZENRT_PATH)/external/iotivity/iotivity_1.2-rel/extlibs/cjson
+CFLAGS += -I$(TIZENRT_PATH)/external/include/log_buffer
+CFLAGS += -I$(TIZENRT_PATH)/os/include
+CFLAGS += -I$(TIZENRT_PATH)/os/net/lwip/src/include
